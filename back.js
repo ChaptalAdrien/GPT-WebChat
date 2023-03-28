@@ -9,7 +9,7 @@ const app = express();
 // Crée un serveur HTTP avec l'application express
 const server = http.createServer(app);
 
-app.use(express.static(''));
+app.use(express.static('public'));
 
 // Crée un serveur WebSocket sur le même port que le serveur HTTP
 const wss = new WebSocket.Server({ server });
