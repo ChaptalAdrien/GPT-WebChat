@@ -1,0 +1,75 @@
+/* Corps de la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Conteneur de chat */
+  #chat {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #aaa;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Conteneur de messages */
+  #messages {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #aaa;
+    margin-bottom: 10px;
+  }
+  
+  /* Style de message */
+  .message {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #aaa;
+    margin-bottom: 10px;
+  }
+  
+  /* Style de message reçu */
+  .message.received {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style du champ de message */
+  #message {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #aaa;
+    margin-bottom: 10px;
+  }
+  
+  /* Style du bouton d'envoi */
+  #send {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #aaa;
+  }
+  
+  /* Style du bouton d'envoi lorsqu'il est désactivé */
+  #send:disabled {
+    background-color: #ccc;
+    cursor: default;
+  }
+  
